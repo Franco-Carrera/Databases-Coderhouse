@@ -1,0 +1,162 @@
+/* en localhost8080 */
+
+.bodyHtml {
+  background-color: rgb(102, 65, 65);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.containProductTable {
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem;
+}
+.contador {
+  position: absolute;
+}
+
+.form-container {
+  width: 850px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+  padding: 15px 25px;
+  background-color: bisque;
+}
+.form {
+  padding-top: 25px;
+}
+
+.form-input {
+  margin-bottom: 25px;
+}
+
+.containInput {
+  display: flex;
+  justify-content: center;
+}
+
+.image-text {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input__viewhome {
+  border-radius: 2.2rem;
+  color: #fff;
+  background-color: rgba(109, 75, 100, 0.959);
+  border: 0;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+}
+.input__viewhome:hover {
+  translate: 770ms;
+  opacity: 0.8;
+  color: maroon;
+  font-weight: bold;
+  background-color: mediumseagreen;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.main-container {
+  padding: 20px 0;
+}
+
+.submit-button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(68, 68, 68);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(138, 248, 64);
+}
+.submit-button:hover {
+  background-color: rgb(100, 179, 48);
+}
+
+.title {
+  text-align: center;
+}
+
+.TablaSocket {
+  margin: 1.5rem;
+}
+
+/* ------------------------------------------------ */
+/* --------en view products con handlebars------ */
+.bodyHtmlView {
+  background-color: rgb(102, 65, 65);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contain_button {
+  display: flex;
+  justify-content: center;
+}
+.input_button {
+  border-radius: 2.2rem;
+  color: #fff;
+  background-color: rgba(109, 75, 100, 0.959);
+  border: 0;
+  padding: 1.6rem;
+  margin: 1rem auto;
+  /* text-decoration: none; */
+  font-weight: bolder;
+}
+.input_button:hover {
+  transform-origin: 33%;
+  translate: 680ms;
+  opacity: 0.8s;
+  color: maroon;
+  background-color: mediumseagreen;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.product-card {
+  width: 250px;
+  height: 340px;
+  padding: 15px 10px;
+  border: 1px solid black;
+  margin: 10px 5px;
+  border-radius: 10px;
+  background-color: goldenrod;
+}
+.product-card img {
+  width: 100%;
+  height: 190px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+#preview {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+/* --------------template socket----------- */
+
+.containTemplate {
+  border: 2px solid wheat;
+  box-shadow: 6px 7px 9px;
+  width: 100%;
+  border-radius: 1.3rem;
+  padding: 1.2rem;
+}
+.imgTemplate {
+  width: 250px;
+  height: 250px;
+}
